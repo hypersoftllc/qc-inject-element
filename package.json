@@ -32,5 +32,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@qc/attach-node": "0.0.0-alpha.1"
   }
 }
