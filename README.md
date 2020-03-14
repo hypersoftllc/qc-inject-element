@@ -23,6 +23,8 @@ interface AttachableObject {
 type Attachable = AttachableString | AttachableObject;
 ```
 
+See [@qc/attach-node](https://www.npmjs.com/package/@qc/attach-node) for examples of uses of `Attachable`s.
+
 
 ## Examples
 
@@ -32,7 +34,7 @@ import injectElement from 'inject-element'
 injectElement({
   tag: 'script',
   src: 'https://cdn.example.com/foobar.js',
-  attach: 'endof@body'
+  attach: 'endof@body', // An `Attachable`.
 })
   .then((elmt) => {
     // Do what is needed now that the dependency successfully loaded.
@@ -46,6 +48,6 @@ injectElement({
   tag: 'link',
   href: 'https://cdn.example.com/foobar.css',
   type: 'stylesheet',
-  attach: 'endof@head'
+  attach: 'endof@head' // An `Attachable`.
 })
 ```
