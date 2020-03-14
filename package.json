@@ -1,0 +1,36 @@
+{
+  "name": "@qc/inject-element",
+  "version": "0.0.0-alpha",
+  "description": "A promise-based `Element` injection utility. Great for injecting `img`, `link`, and `script` elements.",
+  "author": {
+    "name": "Danny Hurlburt",
+    "url": "https://github.com/dhurlburtusa"
+  },
+  "homepage": "https://github.com/hypersoftllc/qc-inject-element#readme",
+  "keywords": [
+    "attach",
+    "element",
+    "image",
+    "img",
+    "inject",
+    "injectElement",
+    "link",
+    "script",
+    "stylesheet"
+  ],
+  "license": "ISC",
+  "files": [
+    "injectElement.js"
+  ],
+  "main": "injectElement.js",
+  "bugs": {
+    "url": "https://github.com/hypersoftllc/qc-inject-element/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypersoftllc/qc-inject-element.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
