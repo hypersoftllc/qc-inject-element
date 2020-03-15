@@ -15,8 +15,10 @@
     "inject",
     "injectElement",
     "link",
+    "promise",
     "script",
-    "stylesheet"
+    "stylesheet",
+    "utility"
   ],
   "license": "ISC",
   "files": [
