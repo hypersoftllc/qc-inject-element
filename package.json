@@ -1,6 +1,6 @@
 {
   "name": "@qc/inject-element",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0",
   "description": "A promise-based `Element` injection utility. Great for injecting `img`, `link`, and `script` elements.",
   "author": {
     "name": "Danny Hurlburt",
